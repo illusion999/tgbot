@@ -5,13 +5,14 @@ class Development(Config):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "3319061"
-    OWNER_ID = "1678331806"  # If you dont know, run the bot and do /id in your private chat with it
+    API_KEY = "1745756051:AAHs2614ly6ruWYZUUtHBznX-gRbZ9u3mwY"
+    OWNER_ID = 1678331806   # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "@VegetaxD"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://ewawttkr:JbHw9yQf3Uj5qNxGC2wLvGVY0Z_L1f9Q@satao.db.elephantsql.com:5432/ewawttkr'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = -1001309372845  # needed to make sure 'save from' messages persist
+    USE_MESSAGE_DUMP = True
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
     # and killed the bot. Be careful re-enabling it!
