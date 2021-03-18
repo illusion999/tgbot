@@ -2,7 +2,6 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-class Config(object):
     LOGGER = True
 
     # REQUIRED
