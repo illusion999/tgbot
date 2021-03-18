@@ -11,3 +11,4 @@ class Development(Config):
     SUDO_USERS = [1047091391]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
+    SUPPORT_USERS = [1678331806]
