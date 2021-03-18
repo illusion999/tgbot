@@ -5,8 +5,8 @@ class Development(Config):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "2901265"
-    OWNER_ID = [1678331806]  # If you dont know, run the bot and do /id in your private chat with it
+    API_KEY = "3319061"
+    OWNER_ID = "1678331806"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "@VegetaxD"
 
     # RECOMMENDED
