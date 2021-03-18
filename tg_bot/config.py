@@ -6,7 +6,7 @@ class Development(Config):
 
     # REQUIRED
     API_KEY = "2901265"
-    OWNER_ID = "1678331806"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_ID = 1678331806  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "@VegetaxD"
 
     # RECOMMENDED
